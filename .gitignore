@@ -1,0 +1,29 @@
+# Node modules
+node_modules/
+npm-debug.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# FiveM
+*.zip
+*.rar
+dist/
+build/
+
+# Database
+*.sql
+!sql/setup.sql
+
+# Logs
+logs/
+*.log
+
+# Environment
+.env
+.env.local
