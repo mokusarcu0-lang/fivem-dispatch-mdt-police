@@ -1,0 +1,38 @@
+{
+  "name": "fivem-dispatch-mdt-police",
+  "version": "1.0.0",
+  "description": "Professional Dispatch, MDT, Police Job & Jail System for FiveM ESX Legacy",
+  "author": "FiveM Developer",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mokusarcu0-lang/fivem-dispatch-mdt-police"
+  },
+  "keywords": [
+    "fivem",
+    "esx",
+    "police",
+    "dispatch",
+    "mdt",
+    "jail",
+    "wanted"
+  ],
+  "scripts": {
+    "start": "fxserver",
+    "lint": "luacheck .",
+    "format": "lua-fmt ."
+  },
+  "dependencies": {
+    "es_extended": ">=1.14.0",
+    "ox_lib": ">=1.0.0",
+    "mysql-async": "*"
+  },
+  "files": [
+    "fxmanifest.lua",
+    "server/**",
+    "client/**",
+    "shared/**",
+    "html/**",
+    "sql/**"
+  ]
+}
